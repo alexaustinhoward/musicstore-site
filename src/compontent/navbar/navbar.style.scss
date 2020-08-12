@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    height: 2em;
+    width:100%;
+    justify-content: space-around;
+    border-bottom: 0.1em solid rgba(139, 197, 214,0.5);
+    align-items: center;
+    .logo{
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1.5em;
+        color: white;
+    }
+    .mobileonly{
+        display: none;
+    }
+    
+    
+    .misc{
+        
+        .miscitems{
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Playfair Display SC', serif;
+            font-size: 1.5em;
+            list-style-type: none;
+         
+            .item{
+                margin-left:  0.8em;
+             color:  white;
+            }
+     
+    }
+}
+}
+@media only screen and (max-width : 768px){
+.navbar{
+    justify-content: space-between;
+    width: 100vw;
+    .mobileonly{
+        display: block;
+    }
+    .misc{
+        .miscitems{
+            display: none;
+        }
+    }
+}
+}

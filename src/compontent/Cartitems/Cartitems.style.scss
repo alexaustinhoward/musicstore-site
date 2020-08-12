@@ -1,0 +1,21 @@
+.CartItem{
+    margin-left: 1em;
+    width: 9em;
+    font-family: 'Playfair Display SC', serif; 
+    border-bottom: 0.07em solid #84bbf3;
+    .trackname{
+    font-size: 0.8em;
+   
+    color: 		#84bbf3;
+    }
+    .artist{
+    font-size: 0.6em;
+    height: 2em;
+    color: 		#84bbf3;
+    }
+    .price{
+    font-size: 0.6em;
+    height: 2em;
+    color: 		 	#84bbf3;
+    }
+}

@@ -1,0 +1,57 @@
+.SearchPage{
+        background-image: url("/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        .MobileMenuItems{
+            display: none;
+        }
+        .body{
+            display:flex;
+            justify-content: flex-start;
+        }
+        .featurewrapper{
+            grid-area: fa;
+            .tabs{
+                display:flex;
+               justify-content: flex-start;
+               color: white;
+               font-family: 'Playfair Display SC', serif;
+               font-size: 2em;
+                .trackstab{
+                  width: 20em;
+                  
+                }
+                .albumstab{  
+                  width: 20em;
+                
+              }
+        }
+    }
+        .sidearea{
+            grid-area: sb;
+        }
+
+
+}
+@media only screen and (max-width : 768px){
+    .SearchPage{
+        .body{
+            display: inline;
+        }
+        .featurewrapper{
+            .tabs{
+                font-size: 1.25em;
+                .trackstab{
+                    width: 10em;
+                }
+                .albumstab{  
+                    width: 10em;
+                }
+            }
+        }
+    }   
+}

@@ -1,0 +1,19 @@
+.AlbumInfoPage{
+    background-image: url("/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    list-style-type: none;
+    .MobileMenuItems{
+        display: none;
+    }
+    .body{
+     
+        display: flex;
+        justify-content: space-around;
+
+}
+}

@@ -1,0 +1,44 @@
+
+            
+        .item{
+            margin-left: 1em;
+            width: 10em;
+            font-family: 'Playfair Display SC', serif;
+            .imagebox{
+                width: 8em;
+                height: 8em;
+                box-shadow: 2px 2px 5px 7px rgba(0,0,0,0.22);
+                &:hover {
+                    width: 10em;
+                    height: 10em;
+                 
+                }
+            }
+            .album{
+                font-size: 0.9em;
+               
+                color: 		white;
+            }
+            .artist{
+                font-size: 0.8em;
+                height: 4em;
+                color: 		rgb(208,208,208);
+            }
+        }
+ 
+@media only screen and (max-width : 768px){
+    .item{
+        margin-left: 2em;
+        width: 13em;
+        .imagebox{
+            width: 14em;
+            height: 14em;
+        }
+        .album{
+            font-size: 1.1em;
+        }
+        .artist{
+            font-size: 0.9em;
+        }
+    }
+}      

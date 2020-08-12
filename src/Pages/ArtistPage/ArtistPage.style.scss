@@ -1,0 +1,31 @@
+.ArtistPage{
+    background-image: url("/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    .MobileMenuItems{
+        display: none;
+    }
+    .body{
+        display: grid;
+        grid-template-areas: 'sb fa fa fa';
+        .featurewrapper{
+            grid-area: fa;
+            }
+        
+        .sidearea{
+            grid-area: sb;
+        }
+        
+}
+}
+@media only screen and (max-width : 768px){
+    .ArtistPage{
+        .body{
+            display: block;
+        }
+    }
+}

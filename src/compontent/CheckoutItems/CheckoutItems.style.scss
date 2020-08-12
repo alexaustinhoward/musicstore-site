@@ -1,0 +1,27 @@
+.checkoutitems{
+    color: white;
+    display:flex;
+    background-color: rgba(181, 186, 182,0.2);
+    justify-content: space-around;
+    border-top: 0.1em solid rgba(139, 197, 214,0.5);
+    border-bottom: 0.1em solid rgba(139, 197, 214,0.5);
+    div{
+        
+        width:15em;
+    }
+    img{
+       width:1.2em;
+    }
+
+    .quantity{
+        .quantitytext{
+            font-size: 1.2em;
+        }
+        .increase{
+width:1.2em;
+        }
+        .decrease{
+width: 1.2em;
+        }
+    }
+}

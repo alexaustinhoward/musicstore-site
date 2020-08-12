@@ -1,0 +1,44 @@
+.infosection{
+    width:100%;
+    .infosection_wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 80em;
+    padding-bottom: 4em;
+    .title{
+        color:white;
+        font-size: 2.5em;
+        
+    }
+    .desrciption{
+        width:14em;
+        color: rgb(208,208,208);
+    }
+    }
+ img{
+    width: 12em;
+    height: 12em;
+    box-shadow: 2px 2px 5px 7px rgba(0,0,0,0.22);
+    &:hover {
+        width: 13em;
+        height: 13em;
+     
+    }
+ }
+}
+@media only screen and (max-width : 768px){
+    .infosection{
+        .infosection_wrapper{
+        width:14em;
+        display: block ;
+        }
+        .title{
+            font-size: 1.7em;
+        }
+        .desrciption{
+            display: none;
+        }
+
+
+    }
+}

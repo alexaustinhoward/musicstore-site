@@ -1,0 +1,15 @@
+.mobilemenuitems{
+.mobiledropitems{
+    display: block;
+    font-family: 'Playfair Display SC', serif;
+        font-size: 1.5em;
+        color: white;
+    div{
+        height: 2em;
+        width:100%;
+        justify-content: space-around;
+        border-bottom: 0.1em solid rgba(139, 197, 214,0.5);
+        align-items: center;
+    }
+}
+}

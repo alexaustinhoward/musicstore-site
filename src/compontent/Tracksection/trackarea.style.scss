@@ -1,0 +1,52 @@
+.trackarea{
+    width: 100%;
+  
+  
+.trackitems{
+    box-shadow: -2px -9px 5px -6px rgba(247, 203, 243,0.33);
+    .titlecontainer{
+        display: flex;
+        justify-content: flex-start;
+
+        .title{
+            font-family: 'Playfair Display SC', serif;
+            color:white;
+            font-size: 1.5em;
+            
+            
+        }
+    }
+   
+    .header{
+        background-color: rgba(181, 186, 182,0.4);
+
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+        color: white;
+       
+    }
+}
+}
+
+@media only screen and (max-width : 768px){
+    .trackarea{
+    .trackitems{
+        .titlecontainer{
+            width: 7em;
+            .title{
+                font-size: 1em;
+            }
+        }
+        .header{
+        div{
+            width: 4em;
+        }
+        .artistnamesheader{
+            display: none;
+        }
+       
+    }
+}
+}
+}
