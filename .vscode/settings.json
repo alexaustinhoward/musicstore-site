@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/4734fe6a-a1e1-4c1f-a8a9-6dd5b5f7b1d0/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/musicsdemo",
+    "appService.deploySubpath": "."
+}
