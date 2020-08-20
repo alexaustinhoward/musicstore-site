@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'musicsstoredemo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0a43a06c259d4ffb8d4c9b4f912c1a9c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ffb36bc6486a49b58c5e4a5082849b14 }}
         package: .
