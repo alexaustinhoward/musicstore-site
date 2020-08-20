@@ -18,7 +18,7 @@ class AlbumInfoPage extends Component{
         };
     }
     componentDidMount(){
-        let response1url='http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&artist='+this.props.match.params.name+'&album='+this.props.match.params.album+'&format=json'
+        let response1url='https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&artist='+this.props.match.params.name+'&album='+this.props.match.params.album+'&format=json'
         fetch(response1url)
           .then(response1=> response1.json())
             .then(response1=> 

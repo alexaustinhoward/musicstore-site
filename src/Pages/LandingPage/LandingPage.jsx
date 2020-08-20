@@ -19,7 +19,7 @@ class LandingPage extends Component{
     }
 
 componentDidMount(){
-    fetch('http://ws.audioscrobbler.com/2.0/?method=tag.gettopalbums&tag=pop&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&limit=12&OUR_API_KEY&format=json')      
+    fetch('https://ws.audioscrobbler.com/2.0/?method=tag.gettopalbums&tag=pop&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&limit=12&OUR_API_KEY&format=json')      
     .then(response1=> response1.json())
       .then(response1=> 
         this.setState({ newdata: response1.albums.album }));

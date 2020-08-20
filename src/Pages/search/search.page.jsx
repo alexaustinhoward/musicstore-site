@@ -27,8 +27,8 @@ class SearchPage extends Component{
         this.setState({isTrackActive: false});
       }
     componentDidMount(){
-        let response2url= 'http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist='+this.props.match.params.searchitem+'&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&format=json'
-        let response3url= 'http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist='+this.props.match.params.searchitem+'&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&limit=500&&format=json'
+        let response2url= 'https://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist='+this.props.match.params.searchitem+'&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&format=json'
+        let response3url= 'https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist='+this.props.match.params.searchitem+'&api_key=cf488b4b83afe5d9fa5b889a4cdd85dd&limit=500&&format=json'
         fetch(response2url)
           .then(response1=> response1.json())
             .then(response1=> 
